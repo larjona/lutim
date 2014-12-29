@@ -1,5 +1,8 @@
 Revision history for Lutim
 
+0.7  2015-?
+	- Remove deprecated (due to typo) option "provisionning".
+
 0.6  2014-10-03
 	- Add OpenGraph tags in social page (ex-twitter page)
 	- Update README.md
