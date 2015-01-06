@@ -2,7 +2,6 @@ requires 'Mojolicious';
 requires 'EV';
 requires 'Data::Validate::URI';
 requires 'Mojolicious::Plugin::I18N';
-requires 'Mojolicious::Plugin::ConfigHashMerge';
 requires 'Mojolicious::Plugin::AssetPack';
 requires 'ORLite';
 requires 'File::Type';

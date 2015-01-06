@@ -1,6 +1,7 @@
 Revision history for Lutim
 
 0.7  2015-?
+	- Allow Lutim to be on a sub-directory (like http://example.org/lutim/) (#46)
 	- Remove deprecated (due to typo) option "provisionning".
 
 0.6  2014-10-03
