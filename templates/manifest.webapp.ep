@@ -19,6 +19,9 @@
         "fr": {
             "description": "Envoyons cette image !\n\nCeci est une application de partage simple d'images qui utilise <%= url_for('/')->to_abs %> pour enregistrer les images. Une fois que vous avez envoyé une image, vous obtiendrez différents liens :\n    un lien de visualisation, qui pointe directement sur l'image\n    un lien de téléchargement, qui force le téléchargement de l'image\n    un lien twitter, que vous pouvez partager sur twitter : l'image apparaîtra nativement dans twitter\n    un lien de suppression, qui vous permet de supprimer l'image quand vous le souhaitez\n\nL'image est conservée sur <%= url_for('/')->to_abs %> pour un délai que vous pouvez définir.\n\nLa particularité de Lutim est que l'image est chiffrée et que son usage est aussi anonyme que possible. Voir la page d'information (<%= url_for('about')->to_abs %>) pour plus de détails.\nLicence : AGPLv3 (https://www.gnu.org/licenses/agpl-3.0.html)"
         }
+        "es": {
+            "description": "¡Envía esa imagen!\n\nEsto es una aplicación sencilla para compartir imágenes que utiliza <%= url_for('/')->to_abs %> para almacenar las imágenes. Una vez que suba una imagen, recibirá varios enlaces:\n un enlace de visualización, que apunta directamente a la imagen\n un enlace de descarga, que fuerza la descarga de la imagen\n un enlace twitter, que puede compartir en twitter: la imagen aparecerá de manera nativa en twitter\n un enlace de borrado, que le permite borrar la imagen cuando desee\n\nLa imagen se conserva en <%= url_for('/')->to_abs %> durante un tiempo que puede definir.\n\nLa particularidad de Lutim es que la imagen se cifra y que su uso es lo más anónimo posible. Vea la página de información (<%= url_for('about')->to_abs %>) para más detalles.\nLicencia: AGPLv3 (https://www.gnu.org/licenses/agpl-3.0.html)"
+        }
     },
     "activities": {
         "share": {
